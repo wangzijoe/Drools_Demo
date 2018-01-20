@@ -1,0 +1,17 @@
+package com.drools.couponRule.JudgeTest;
+
+import drools.couponRule.Judge;
+import drools.couponRule.Order;
+import drools.couponRule.CouponRule;
+
+rule DingDanManJianQuan
+	// 测试-订单金额满减券
+	salience 100
+	lock-on-active true
+	when
+		$judge : Judge($judge.getOrder().getTotalPayment().compareTo($judge.getCouponRule().getMinimum()) == 1)
+	then
+		$judge.getOrder().setActualPayment($judge.getOrder().getTotalPayment().subtract( $judge.getCouponRule().getDiscount()));
+		
+end
+

@@ -1,0 +1,20 @@
+#文件磁盘读写演示
+package com.droos.test;
+
+import drools.couponRule.CouponRule;
+
+rule "DingDanManJian"
+
+            when
+                    CouponRule(amountType == 1);
+
+            then 
+                    System.out.println("这是订单满减券");
+end
+
+rule "ShiFuManJian"
+            when
+                    CouponRule(amountType == 2);
+            then
+                    System.out.println("这是实付满减券");
+end

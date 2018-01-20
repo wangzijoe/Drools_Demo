@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title xmlns:d="http://docbook.org/ns/docbook" xmlns:rf="java:org.jboss.highlight.XhtmlRendererFactory">Chapter 3. Getting Involved</title><link rel="stylesheet" href="css/jbossorg.css" type="text/css"/><meta xmlns:d="http://docbook.org/ns/docbook" xmlns:rf="java:org.jboss.highlight.XhtmlRendererFactory" name="generator" content="DocBook XSL-NS Stylesheets V1.74.0"/><meta xmlns:d="http://docbook.org/ns/docbook" xmlns:rf="java:org.jboss.highlight.XhtmlRendererFactory" http-equiv="Content-Type" content="text/html; charset=UTF-8"/><link rel="home" href="index.html" title="Drools Introduction and General User Guide"/><link rel="up" href="index.html" title="Drools Introduction and General User Guide"/><link rel="prev" href="installationAndSetup.html" title="Chapter 2. Installation and Setup (Core and IDE)"/><link rel="next" href="releaseNotes.html" title="Chapter 4. Drools Release Notes"/></head><body><p xmlns:d="http://docbook.org/ns/docbook" id="title"><a href="http://www.jboss.org" class="site_href"><strong>JBoss.org</strong></a><a href="http://docs.jboss.org/" class="doc_href"><strong>Community Documentation</strong></a></p><ul xmlns:d="http://docbook.org/ns/docbook" class="docnav"><li class="previous"><a accesskey="p" href="installationAndSetup.html"><strong>Prev</strong></a></li><li class="next"><a accesskey="n" href="releaseNotes.html"><strong>Next</strong></a></li></ul><div class="chapter" lang="en-US"><div class="titlepage"><div><div><h2 class="title"><a id="gettingstarted"/>Chapter 3. Getting Involved</h2></div></div></div><div class="toc"><dl><dt><span class="section"><a href="gettingstarted.html#d0e319">3.1. Sign up to jboss.org</a></span></dt><dt><span class="section"><a href="gettingstarted.html#d0e330">3.2. Sign the Contributor Agreement</a></span></dt><dt><span class="section"><a href="gettingstarted.html#d0e341">3.3. Submitting issues via JIRA</a></span></dt><dt><span class="section"><a href="gettingstarted.html#d0e361">3.4. Fork Github</a></span></dt><dt><span class="section"><a href="gettingstarted.html#d0e372">3.5. Writing Tests</a></span></dt><dt><span class="section"><a href="gettingstarted.html#d0e385">3.6. Commit with Correct Conventions</a></span></dt><dt><span class="section"><a href="gettingstarted.html#d0e395">3.7. Submit Pull Requests</a></span></dt></dl></div><p>We are often asked "How do I get involved". Luckily the answer is
+  simple, just write some code and submit it :) There are no hoops you have to
+  jump through or secret handshakes. We have a very minimal "overhead" that we
+  do request to allow for scalable project development. Below we provide a
+  general overview of the tools and "workflow" we request, along with some
+  general advice.</p><p>If you contribute some good work, don't forget to blog about it
+  :)</p><div class="section" lang="en-US"><div class="titlepage"><div><div><h2 class="title"><a id="d0e319"/>3.1. Sign up to jboss.org</h2></div></div></div><p>Signing to jboss.org will give you access to the JBoss wiki, forums and Jira. Go to 
+    <a class="link" href="http://www.jboss.org/" target="">http://www.jboss.org/</a> and click "Register".</p><div class="mediaobject"><img src="images/Chapter-Getting_Involved/sign_jbossorg.png"/></div></div><div class="section" lang="en-US"><div class="titlepage"><div><div><h2 class="title"><a id="d0e330"/>3.2. Sign the Contributor Agreement</h2></div></div></div><p>The only form you need to sign is the contributor agreement, which
+    is fully automated via the web. As the image below says "This establishes
+    the terms and conditions for your contributions and ensures that source
+    code can be licensed appropriately"</p><p><a class="link" href="https://cla.jboss.org/" target="">https://cla.jboss.org/</a></p><div class="mediaobject"><img src="images/Chapter-Getting_Involved/sign_contributor.png"/></div></div><div class="section" lang="en-US"><div class="titlepage"><div><div><h2 class="title"><a id="d0e341"/>3.3. Submitting issues via JIRA</h2></div></div></div><p>To be able to interact with the core development team you will need
+    to use JIRA, the issue tracker. This ensures that all requests are logged
+    and allocated to a release schedule and all discussions captured in one
+    place. Bug reports, bug fixes, feature requests and feature submissions
+    should all go here. General questions should be undertaken at the mailing
+    lists.</p><p>Minor code submissions, like format or documentation fixes do not
+    need an associated JIRA issue created.</p><p><a class="link" href="???" target="">https://issues.jboss.org/browse/JBRULES
+    </a>(Drools)</p><p><a class="link" href="https://issues.jboss.org/browse/JBPM" target="">https://issues.jboss.org/browse/JBPM</a></p><p><a class="link" href="https://issues.jboss.org/browse/GUVNOR" target="">https://issues.jboss.org/browse/GUVNOR</a></p><div class="mediaobject"><img src="images/Chapter-Getting_Involved/submit_jira.png"/></div></div><div class="section" lang="en-US"><div class="titlepage"><div><div><h2 class="title"><a id="d0e361"/>3.4. Fork Github</h2></div></div></div><p>With the contributor agreement signed and your requests submitted to
+    jira you should now be ready to code :) Create a github account and fork
+    any of the drools, jbpm or guvnor sub modules. The fork will create a copy
+    in your own github space which you can work on at your own pace. If you
+    make a mistake, don't worry blow it away and fork again. Note each github
+    repository provides you the clone (checkout) URL, github will provide you
+    URLs specific to your fork.</p><p><a class="link" href="https://github.com/droolsjbpm" target="">https://github.com/droolsjbpm</a></p><div class="mediaobject"><img src="images/Chapter-Getting_Involved/fork_github.png"/></div></div><div class="section" lang="en-US"><div class="titlepage"><div><div><h2 class="title"><a id="d0e372"/>3.5. Writing Tests</h2></div></div></div><p>When writing tests, try and keep them minimal and self contained. We
+    prefer to keep the drl fragments within the test, as it makes for quicker
+    reviewing. If their are a large number of rules then using a String is not
+    practical so then by all means place them in separate drl files instead to
+    be loaded from the classpath. If your tests need to use a model, please
+    try to use those that already exist for other unit tests; such as Person,
+    Cheese or Order. If no classes exist that have the fields you need, try
+    and update fields of existing classes before adding a new class.</p><p>There are a vast number of tests to look over to get an idea,
+    MiscTest is a good place to start.</p><p><a class="link" href="https://github.com/droolsjbpm" target="">https://github.com/droolsjbpm/drools/blob/master/drools-compiler/src/test/java/org/drools/integrationtests/MiscTest.java</a></p><div class="mediaobject"><img src="images/Chapter-Getting_Involved/unit_test.png"/></div></div><div class="section" lang="en-US"><div class="titlepage"><div><div><h2 class="title"><a id="d0e385"/>3.6. Commit with Correct Conventions</h2></div></div></div><p>When you commit, make sure you use the correct conventions. The
+    commit must start with the JIRA issue id, such as JBRULES-220. This
+    ensures the commits are cross referenced via JIRA, so we can see all
+    commits for a given issue in the same place. After the id the title of the
+    issue should come next. Then use a newline, indented with a dash, to
+    provide additional information related to this commit. Use an additional
+    new line and dash for each separate point you wish to make. You may add
+    additional JIRA cross references to the same commit, if it's appropriate.
+    In general try to avoid combining unrelated issues in the same
+    commit.</p><p>Don't forget to rebase your local fork from the original master and
+    then push your commits back to your fork.</p><div class="mediaobject"><img src="images/Chapter-Getting_Involved/jira_crossreferenced.png"/></div></div><div class="section" lang="en-US"><div class="titlepage"><div><div><h2 class="title"><a id="d0e395"/>3.7. Submit Pull Requests</h2></div></div></div><p>With your code rebased from original master and pushed to your
+    personal github area, you can now submit your work as a pull request. If
+    you look at the top of the page in github for your work area their will be
+    a "Pull Request" button. Selecting this will then provide a gui to
+    automate the submission of your pull request.</p><p>The pull request then goes into a queue for everyone to see and
+    comment on. Below you can see a typical pull request. The pull requests
+    allow for discussions and it shows all associated commits and the diffs
+    for each commit. The discussions typically involve code reviews which
+    provide helpful suggestions for improvements, and allows for us to leave
+    inline comments on specific parts of the code. Don't be disheartened if we
+    don't merge straight away, it can often take several revisions before we
+    accept a pull request. Luckily github makes it very trivial to go back to
+    your code, do some more commits and then update your pull request to your
+    latest and greatest.</p><p>It can take time for us to get round to responding to pull requests,
+    so please be patient. Submitted tests that come with a fix will generally
+    be applied quite quickly, where as just tests will often way until we get
+    time to also submit that with a fix. Don't forget to rebase and resubmit
+    your request from time to time, otherwise over time it will have merge
+    conflicts and core developers will general ignore those.</p><div class="mediaobject"><img src="images/Chapter-Getting_Involved/submit_pull_request.png"/></div></div></div><ul xmlns:d="http://docbook.org/ns/docbook" class="docnav"><li class="previous"><a accesskey="p" href="installationAndSetup.html"><strong>Prev</strong>Chapter 2. Installation and Setup (Core and IDE)</a></li><li class="up"><a accesskey="u" href="#"><strong>Top of page</strong></a></li><li class="home"><a accesskey="h" href="index.html"><strong>Front page</strong></a></li><li class="next"><a accesskey="n" href="releaseNotes.html"><strong>Next</strong>Chapter 4. Drools Release Notes</a></li></ul></body></html>
